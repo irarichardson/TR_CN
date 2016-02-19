@@ -1,0 +1,140 @@
+.navbar-static-top {
+  margin-bottom:20px;
+  border-bottom: 1px #c4c4c4 solid;
+}
+
+i {
+  font-size:18px;
+}
+  
+footer {
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color:#efefef;
+}
+
+.nav>li .count {
+  position: absolute;
+  top: 10%;
+  right: 25%;
+  font-size: 10px;
+  font-weight: normal;
+  background: rgba(41,200,41,0.75);
+  color: rgb(255,255,255);
+  line-height: 1em;
+  padding: 2px 4px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.center_align{
+    display: block;
+    margin: auto;
+   
+}
+.home-dash{
+    margin-bottom: 100px;
+}
+
+.green{
+background-color: #15ce49;
+}
+.text-green{
+color: #15ce49;
+}
+.side-height-fix{
+margin-top: 15px;
+}
+@media (min-width: 768px){
+    .navbar-collapse.collapse{
+    height: 20px;
+    }
+}
+.navbar-form {
+padding: 10px 70px 0px 0px;}
+.navbar-collapse{padding-left: 0px;}
+.col-sm-custom-2 {
+width: 7.666667%;
+float: left;
+}
+.col-sm-custom-1 {
+width: 5.333333%;
+float: left;
+}
+.day-details{
+    margin-bottom: 9px;
+}
+
+.popup_modal{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+h4 {
+  text-align: center;
+}
+
+#container {
+    border:1px solid #b0b0b0;
+    display: inline-block;
+    cursor: pointer;
+}
+#imgUpload {
+    visibility:hidden;
+    width:1px;   
+}
+
+.highlight {
+	border: 1px solid #ff0000;
+	cursor: pointer;
+}
+
+.lowlight {
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.myclass {
+	border-bottom: 1px solid #c4c4c4;
+}
+
+.alt {
+background-color: #f9f9f9;
+}
+.footer-icons{
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+a.socialIcons:hover {
+opacity: .8;
+filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.footer-icons{
+    list-style: none outside;
+    padding-left: 0px;
+
+}
+
+.footer-icons li {
+    display: block;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-about{
+    list-style: none outside;
+    padding-left: 0px;
+    
+}
+.footer-more{
+    list-style: none outside;
+    padding-left: 0px;
+}
+
+input.ng-invalid {
+  border: 1px solid red;
+}
